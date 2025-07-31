@@ -1856,16 +1856,16 @@ swapIcon.click(function () {
   if (imageCheckbox.prop("checked")) {
     const currentSrc = aceImg.attr("src");
     if (currentSrc.includes("3mauso02.png")) {
-      aceImg.attr("src", "/img/3mauso01.png");
+      aceImg.attr("src", "/qrcodefree/img/3mauso01.png");
     } else {
-      aceImg.attr("src", "/img/3mauso02.png");
+      aceImg.attr("src", "/qrcodefree/img/3mauso02.png");
     }
   } else if (colorRadio.prop("checked")) {
     const currentSrc = aceImg.attr("src");
     if (currentSrc.includes("prsection1.png")) {
-      aceImg.attr("src", "/img/prsection2.png");
+      aceImg.attr("src", "/qrcodefree/img/prsection2.png");
     } else {
-      aceImg.attr("src", "/img/prsection1.png");
+      aceImg.attr("src", "/qrcodefree/img/prsection1.png");
     }
   } else if (gradiention === "Linear gradient") {
     aceImg.attr("src", "/qrcodefree/img/b01.png");
