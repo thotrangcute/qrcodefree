@@ -1695,35 +1695,35 @@ business.on("click", function (e) {
   imangecontent.html(`
      <div class="contentnis" >
           <div class="imgsection-listimg">
-            <img src="/img/end-1.png" />
+            <img src="/qrcodefree/img/end-1.png" />
             <p class="listimg-content">Online shopping</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-2.png" />
+            <img src="/qrcodefree/img/end-2.png" />
             <p class="listimg-content">Online ordering</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-3.png" />
+            <img src="/qrcodefree/img/end-3.png" />
             <p class="listimg-content">Accessing product info</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-4.png" />
+            <img src="/qrcodefree/img/end-4.png" />
             <p class="listimg-content">Connecting social media</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-5.png" />
+            <img src="/qrcodefree/img/end-5.png" />
             <p class="listimg-content">Doing payment</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-6.png" />
+            <img src="/qrcodefree/img/end-6.png" />
             <p class="listimg-content">Connecting WiFi</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-7.png" />
+            <img src="/qrcodefree/img/end-7.png" />
             <p class="listimg-content">Sharing feedback</p>
           </div>
           <div class="imgsection-listimg">
-            <img src="/img/end-8.png" />
+            <img src="/qrcodefree/img/end-8.png" />
             <p class="listimg-content">Downloading the app</p>
           </div>
         </div>
@@ -1740,15 +1740,15 @@ margketting.on("click", function (e) {
     <div class="contentnis">
   <div class="content-first">
     <div class="imgsection-listimgner">
-      <img src="/img/marketting-1.png" />
-      <img src="/img/marketting-.png" />
+      <img src="/qrcodefree/img/marketting-1.png" />
+      <img src="/qrcodefree/img/marketting-.png" />
     </div>
     <div class="listimg-content">Promoting sales, events on Posters</div>
   </div>
   <div class="content-first">
     <div class="imgsection-listimgner">
-      <img  src="/img/markettin-3.png" />
-      <img src="/img/marketting-4.png" />
+      <img  src="/qrcodefree/img/markettin-3.png" />
+      <img src="/qrcodefree/img/marketting-4.png" />
     </div>
     <div class="listimg-content">
       Promoting products, services on Flyers, Brochures
@@ -1756,8 +1756,8 @@ margketting.on("click", function (e) {
   </div>
   <div class="content-first">
     <div class="imgsection-listimgner">
-      <img src="/img/marketing-5.png" />
-      <img src="/img/markrtting06.png" />
+      <img src="/qrcodefree/img/marketing-5.png" />
+      <img src="/qrcodefree/img/markrtting06.png" />
     </div>
     <div class="listimg-content">Promoting services on Sandwich boards</div>
    < /div>
@@ -1776,13 +1776,13 @@ Freelancer.on("click", function (e) {
     <div class="contentnis">
   <div class="content-first">
     <div class="imgsection-listimgner">
-      <img src="/img/freelan-1.png" />
-      <img src="/img/freelan-2.png" />
+      <img src="/qrcodefree/img/freelan-1.png" />
+      <img src="/qrcodefree/img/freelan-2.png" />
     </div>
   </div>
   <div class="content-first">
     <div class="imgsection-listimgner">
-      <img class="first-imaeges" src="/img/freelan-3.png" />
+      <img class="first-imaeges" src="/qrcodefree/img/freelan-3.png" />
     </div>
     <div class="listimg-content">
       Promoting products, services on Flyers, Brochures
@@ -1790,8 +1790,8 @@ Freelancer.on("click", function (e) {
   </div>
   <div class="content-first">
     <div class="imgsection-listimgner">
-      <img src="/img/freelan-4.png" />
-      <img src="/img/freelan-5.png" />
+      <img src="/qrcodefree/img/freelan-4.png" />
+      <img src="/qrcodefree/img/freelan-5.png" />
     </div>
     <div class="listimg-content">Promoting services on Sandwich boards</div>
   </div>
@@ -1856,19 +1856,19 @@ swapIcon.click(function () {
   if (imageCheckbox.prop("checked")) {
     const currentSrc = aceImg.attr("src");
     if (currentSrc.includes("3mauso02.png")) {
-      aceImg.attr("src", "/img/3mauso01.png");
+      aceImg.attr("src", "/qrcodefree/img/3mauso01.png");
     } else {
-      aceImg.attr("src", "/img/3mauso02.png");
+      aceImg.attr("src", "/qrcodefree/img/3mauso02.png");
     }
   } else if (colorRadio.prop("checked")) {
     const currentSrc = aceImg.attr("src");
     if (currentSrc.includes("prsection1.png")) {
-      aceImg.attr("src", "/img/prsection2.png");
+      aceImg.attr("src", "/qrcodefree/img/prsection2.png");
     } else {
-      aceImg.attr("src", "/img/prsection1.png");
+      aceImg.attr("src", "/qrcodefree/img/prsection1.png");
     }
   } else if (gradiention === "Linear gradient") {
-    aceImg.attr("src", "/img/b01.png");
+    aceImg.attr("src", "/qrcodefree/img/b01.png");
   }
   const color1 = $("#color1");
   const color2 = $("#color2");
